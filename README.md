@@ -1,5 +1,14 @@
 # 🚀 Mon HomeLab - Journal d'Apprentissage Linux
 
+<style>
+img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+</style>
+
+
 Salut ! Je suis Jaouad, passionné par l'informatique et actuellement en formation sur Linux. 
 
 Ce repository est mon journal de bord : chaque jour je documente les problèmes que je rencontre, comment je les résous, et ce que j'apprends. C'est mon terrain de jeu pour progresser en administration système !
@@ -27,21 +36,21 @@ J'ai monté un vrai HomeLab avec :
   <tr>
     <td align="center" width="33%">
       <a href="#jour-1">
-        <img src="procedures/captures/06-panne-path-vide.png" width="250"/><br/>
+        <img src="procedures/captures/06-panne-path-vide.png" width="200"/><br/>
         <b>Jour 1 - PATH Corrompu</b><br/>
         Variable système vide
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#jour-2">
-        <img src="procedures/captures/04-panne-reseau-eth0-down.png" width="250"/><br/>
+        <img src="procedures/captures/04-panne-reseau-eth0-down.png" width="200"/><br/>
         <b>Jour 2 - Panne Réseau</b><br/>
         Interface DOWN
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#jour-3">
-        <img src="procedures/captures/05-panne-dns-inactive.png" width="250"/><br/>
+        <img src="procedures/captures/05-panne-dns-inactive.png" width="200"/><br/>
         <b>Jour 3 - Panne DNS</b><br/>
         Service inactif
       </a>
@@ -50,21 +59,21 @@ J'ai monté un vrai HomeLab avec :
   <tr>
     <td align="center" width="33%">
       <a href="#jour-4">
-        <img src="procedures/captures/03-panne-disque-fakefile.png" width="250"/><br/>
+        <img src="procedures/captures/03-panne-disque-fakefile.png" width="200"/><br/>
         <b>Jour 4 - Problème Disque</b><br/>
         Fichier suspect détecté
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#jour-5">
-        <img src="procedures/captures/08-logs-pannes-syslog.png" width="250"/><br/>
+        <img src="procedures/captures/08-logs-pannes-syslog.png" width="200"/><br/>
         <b>Jour 5 - Logs Système</b><br/>
         Historique des pannes
       </a>
     </td>
     <td align="center" width="33%">
       <a href="#jour-5">
-        <img src="procedures/captures/09-resolution-rsyslog-actif.png" width="250"/><br/>
+        <img src="procedures/captures/09-resolution-rsyslog-actif.png" width="200"/><br/>
         <b>État Final</b><br/>
         ✅ 100% Opérationnel
       </a>
