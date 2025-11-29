@@ -76,7 +76,7 @@ J'ai monté un vrai HomeLab avec :
 
 ## 📅 Journal des Interventions
 
-### <a id="jour-1"></a>🗓️ Jour 1 - 25/11/2024 : Corruption PATH - Variable système vide
+### <a id="jour-1"></a>🗓️ Jour 1 - 25/11/2025 : Corruption PATH - Variable système vide
 
 **🎯 Mission du jour** : Réparer un système où plus aucune commande ne fonctionne
 
@@ -137,7 +137,7 @@ ls -la  # Test commande
 
 ---
 
-### <a id="jour-2"></a>🗓️ Jour 2 - 26/11/2024 : Panne réseau - Interface désactivée
+### <a id="jour-2"></a>🗓️ Jour 2 - 26/11/2025 : Panne réseau - Interface désactivée
 
 **🎯 Mission du jour** : Résoudre un problème de connectivité réseau
 
@@ -200,7 +200,7 @@ cat /etc/netplan/*.yaml          # Lecture config réseau
 
 ---
 
-### <a id="jour-3"></a>🗓️ Jour 3 - 27/11/2024 : Panne DNS - Service systemd-resolved inactif
+### <a id="jour-3"></a>🗓️ Jour 3 - 27/11/2025 : Panne DNS - Service systemd-resolved inactif
 
 **🎯 Mission du jour** : Réparer la résolution de noms de domaine
 
@@ -247,7 +247,7 @@ ping -c 4 google.com
 
 ---
 
-### <a id="jour-4"></a>🗓️ Jour 4 - 28/11/2024 : Problème Disque - Fichier suspect détecté
+### <a id="jour-4"></a>🗓️ Jour 4 - 28/11/2025 : Problème Disque - Fichier suspect détecté
 
 **🎯 Mission du jour** : Analyser et nettoyer un fichier suspect sur le disque
 
@@ -289,7 +289,7 @@ df -h                          # Espace disque
 
 ---
 
-### <a id="jour-5"></a>🗓️ Jour 5 - 29/11/2024 : Logs système - Activation et historique
+### <a id="jour-5"></a>🗓️ Jour 5 - 29/11/2025 : Logs système - Activation et historique
 
 **🎯 Mission du jour** : Réactiver la journalisation et analyser l'historique des pannes
 
@@ -527,5 +527,5 @@ Je ne suis pas encore expert, mais je suis **passionné**, **investi** et **dét
 ---
 
 *📅 Journal mis à jour quotidiennement*  
-*🔄 Dernière intervention : 29/11/2024*  
+*🔄 Dernière intervention : 29/11/2025*  
 *⭐ N'hésitez pas à star ce repo si vous le trouvez utile !*
