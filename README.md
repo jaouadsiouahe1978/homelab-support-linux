@@ -156,6 +156,7 @@ ls -la  # Test commande
 ---
 
 ### <a id="jour-2"></a>🗓️ Jour 2 - 26/11/2025 : Panne réseau - Interface désactivée
+![Jour 2 - Panne réseau](procedures/captures/04-panne-reseau-eth0-down.png)
 
 **🎯 Mission du jour** : Résoudre un problème de connectivité réseau
 
@@ -219,6 +220,7 @@ cat /etc/netplan/*.yaml          # Lecture config réseau
 ---
 
 ### <a id="jour-3"></a>🗓️ Jour 3 - 27/11/2025 : Panne DNS - Service systemd-resolved inactif
+![Jour 3 - Panne DNS](procedures/captures/04-panne-dns-resolved-inactive.png)
 
 **🎯 Mission du jour** : Réparer la résolution de noms de domaine
 
@@ -266,6 +268,7 @@ ping -c 4 google.com
 ---
 
 ### <a id="jour-4"></a>🗓️ Jour 4 - 28/11/2025 : Problème Disque - Fichier suspect détecté
+![Jour 4 - Disque suspect](procedures/captures/02-diagnostic-disque-fakefile.png)
 
 **🎯 Mission du jour** : Analyser et nettoyer un fichier suspect sur le disque
 
@@ -308,6 +311,7 @@ df -h                          # Espace disque
 ---
 
 ### <a id="jour-5"></a>🗓️ Jour 5 - 29/11/2025 : Logs système - Activation et historique
+![Jour 5 - Logs système](procedures/captures/07-logs-historique-pannes.png)
 
 **🎯 Mission du jour** : Réactiver la journalisation et analyser l'historique des pannes
 
@@ -456,6 +460,21 @@ pct start 100                    # Démarrer conteneur
 
 ---
 
+## 📊 Galerie des Incidents Résolus
+
+| Jour | Incident / Description | Capture |
+|------|-------------------------|---------|
+| 01 | Résolution Netplan OK | ![01](procedures/captures/01-resolution-netplan-ping-ok.png) |
+| 02 | Diagnostic disque (fakefile) | ![02](procedures/captures/02-diagnostic-disque-fakefile.png) |
+| 03 | Panne réseau (eth0 DOWN) | ![03](procedures/captures/04-panne-reseau-eth0-down.png) |
+| 04 | Panne DNS (systemd-resolved inactif) | ![04](procedures/captures/04-panne-dns-resolved-inactive.png) |
+| 05 | Diagnostic interface DOWN | ![05](procedures/captures/05-diagnostic-interface-down.png) |
+| 06 | Panne PATH vide | ![06](procedures/captures/06-panne-path-vide.png) |
+| 07 | Logs – Historique des pannes | ![07](procedures/captures/07-logs-historique-pannes.png) |
+| 08 | Résolution rsyslog actif | ![08](procedures/captures/08-resolution-rsyslog-actif.png) |
+| 09 | Résolution PATH restauré | ![09](procedures/captures/09-resolution-path-restored.png) |
+| 10 | Tests de vérification finale | ![10](procedures/captures/10-tests-verification-finale.png) |
+| 11 | État final du système | ![11](procedures/captures/11-etat-final-systeme.png) |
 ## 🔄 Roadmap - Prochains Objectifs
 
 ### 📅 Semaine prochaine
@@ -556,3 +575,14 @@ documente tout pour partager et m'améliorer.
 *📅 Journal mis à jour quotidiennement*  
 *🔄 Dernière intervention : 29/11/2025*  
 *⭐ N'hésitez pas à star ce repo si vous le trouvez utile !*
+'EOF'{name}](procedures/captures/01-resolution-netplan-ping-ok.png)
+'EOF'{name}](procedures/captures/02-diagnostic-disque-fakefile.png)
+'EOF'{name}](procedures/captures/04-panne-reseau-eth0-down.png)
+'EOF'{name}](procedures/captures/04-panne-dns-resolved-inactive.png)
+'EOF'{name}](procedures/captures/05-diagnostic-interface-down.png)
+'EOF'{name}](procedures/captures/06-panne-path-vide.png)
+'EOF'{name}](procedures/captures/07-logs-historique-pannes.png)
+'EOF'{name}](procedures/captures/08-resolution-rsyslog-actif.png)
+'EOF'{name}](procedures/captures/09-resolution-path-restored.png)
+'EOF'{name}](procedures/captures/10-tests-verification-finale.png)
+'EOF'{name}](procedures/captures/11-etat-final-systeme.png)
