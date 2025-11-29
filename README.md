@@ -529,3 +529,12 @@ Je ne suis pas encore expert, mais je suis **passionné**, **investi** et **dét
 *📅 Journal mis à jour quotidiennement*  
 *🔄 Dernière intervention : 29/11/2025*  
 *⭐ N'hésitez pas à star ce repo si vous le trouvez utile !*
+documente tout pour partager et m'améliorer.
+
+**N'hésitez pas à me contacter !**
+
+---
+
+*📅 Journal mis à jour quotidiennement*  
+*🔄 Dernière intervention : 29/11/2025*  
+*⭐ N'hésitez pas à star ce repo si vous le trouvez utile !*
