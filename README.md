@@ -9,6 +9,15 @@ img {
 </style>
 
 
+<style>
+img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+</style>
+
+
 Salut ! Je suis Jaouad, passionné par l'informatique et actuellement en formation sur Linux. 
 
 Ce repository est mon journal de bord : chaque jour je documente les problèmes que je rencontre, comment je les résous, et ce que j'apprends. C'est mon terrain de jeu pour progresser en administration système !
