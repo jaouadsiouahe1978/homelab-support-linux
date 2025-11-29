@@ -98,7 +98,7 @@ Ma réaction : "Euh... j'ai complètement cassé le conteneur ?!"
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-![PATH vide](procedures/captures/06-panne-path-vide.png)
+<img src="procedures/captures/06-panne-path-vide.png" alt="PATH vide" width="600"/>
 *Variable PATH vide - Aucune commande accessible*
 
 </details>
@@ -131,7 +131,7 @@ ls -la  # Test commande
 <details>
 <summary>📸 Cliquez pour voir la résolution</summary>
 
-![PATH restauré](procedures/captures/01-resolution-path-restored.png)
+<img src="procedures/captures/01-resolution-path-restored.png" alt="PATH restauré" width="600"/>
 *PATH restauré - Toutes les commandes fonctionnelles ✅*
 
 </details>
@@ -158,7 +158,7 @@ Impossible de pinger Google depuis mon conteneur. Panique totale !
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-![Panne réseau](procedures/captures/04-panne-reseau-eth0-down.png)
+<img src="procedures/captures/04-panne-reseau-eth0-down.png" alt="Panne réseau" width="600"/>
 *Interface eth0 en état DOWN - Aucune connectivité réseau*
 
 </details>
@@ -184,7 +184,7 @@ cat /etc/netplan/*.yaml          # Lecture config réseau
 <details>
 <summary>📸 Cliquez pour voir l'application de Netplan</summary>
 
-![Netplan apply](procedures/captures/02-netplan-apply-success.png)
+<img src="procedures/captures/02-netplan-apply-success.png" alt="Netplan apply" width="600"/>
 *Application réussie de la configuration Netplan*
 
 </details>
@@ -194,7 +194,7 @@ cat /etc/netplan/*.yaml          # Lecture config réseau
 <details>
 <summary>📸 Cliquez pour voir le diagnostic interface</summary>
 
-![Diagnostic interface](procedures/captures/06-panne-interface-down.png)
+<img src="procedures/captures/06-panne-interface-down.png" alt="Diagnostic interface" width="600"/>
 *Vérification complète de l'interface réseau*
 
 </details>
@@ -221,7 +221,7 @@ Le ping sur 8.8.8.8 fonctionne mais pas sur google.com. Étrange...
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-![DNS inactif](procedures/captures/05-panne-dns-inactive.png)
+<img src="procedures/captures/05-panne-dns-inactive.png" alt="DNS inactif" width="600"/>
 *Service systemd-resolved inactif - Pas de résolution DNS*
 
 </details>
@@ -268,7 +268,7 @@ Lors d'un contrôle de routine, j'ai détecté un fichier nommé "fakefile" qui 
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-![Fichier suspect](procedures/captures/03-panne-disque-fakefile.png)
+<img src="procedures/captures/03-panne-disque-fakefile.png" alt="Fichier suspect" width="600"/>
 *Fichier "fakefile" détecté lors du diagnostic disque*
 
 </details>
@@ -310,7 +310,7 @@ Je veux consulter l'historique des pannes mais les logs ne sont pas actifs.
 <details>
 <summary>📸 Cliquez pour voir l'historique des pannes</summary>
 
-![Logs système](procedures/captures/08-logs-pannes-syslog.png)
+<img src="procedures/captures/08-logs-pannes-syslog.png" alt="Logs système" width="600"/>
 *Historique des pannes système dans syslog*
 
 </details>
@@ -333,7 +333,7 @@ tail -f /var/log/syslog
 <details>
 <summary>📸 Cliquez pour voir la résolution</summary>
 
-![rsyslog actif](procedures/captures/09-resolution-rsyslog-actif.png)
+<img src="procedures/captures/09-resolution-rsyslog-actif.png" alt="rsyslog actif" width="600"/>
 *Service rsyslog actif - Journalisation opérationnelle ✅*
 
 </details>
