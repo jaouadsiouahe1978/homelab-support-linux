@@ -27,7 +27,7 @@ J'ai monté un vrai HomeLab avec :
   <tr>
     <td align="center" width="33%">
       <a href="#jour-1">
-        <img src="procedures/captures/07-panne-path-vide.png" width="250"/><br/>
+        <img src="procedures/captures/06-panne-path-vide.png" width="250"/><br/>
         <b>Jour 1 - PATH Corrompu</b><br/>
         Variable système vide
       </a>
@@ -89,7 +89,7 @@ Ma réaction : "Euh... j'ai complètement cassé le conteneur ?!"
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-![PATH vide](procedures/captures/07-panne-path-vide.png)
+![PATH vide](procedures/captures/06-panne-path-vide.png)
 *Variable PATH vide - Aucune commande accessible*
 
 </details>
