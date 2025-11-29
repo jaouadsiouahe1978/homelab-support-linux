@@ -52,7 +52,7 @@ J'ai monté un vrai HomeLab avec :
     </td>
     <td align="center" width="33%">
       <a href="#jour-2">
-        <img src="procedures/captures/04-panne-reseau-eth0-down.png" width="200"/><br/>
+        <img src="procedures/captures/03-panne-reseau-eth0-down.png" width="200"/><br/>
         <b>Jour 2 - Panne Réseau</b><br/>
         Interface DOWN
       </a>
@@ -156,7 +156,7 @@ ls -la  # Test commande
 ---
 
 ### <a id="jour-2"></a>🗓️ Jour 2 - 26/11/2025 : Panne réseau - Interface désactivée
-![Jour 2 - Panne réseau](procedures/captures/04-panne-reseau-eth0-down.png)
+![Jour 2 - Panne réseau](procedures/captures/03-panne-reseau-eth0-down.png)
 
 **🎯 Mission du jour** : Résoudre un problème de connectivité réseau
 
@@ -168,7 +168,7 @@ Impossible de pinger Google depuis mon conteneur. Panique totale !
 <details>
 <summary>📸 Cliquez pour voir la capture du problème</summary>
 
-<img src="procedures/captures/04-panne-reseau-eth0-down.png" alt="Panne réseau" width="600"/>
+<img src="procedures/captures/03-panne-reseau-eth0-down.png" alt="Panne réseau" width="600"/>
 *Interface eth0 en état DOWN - Aucune connectivité réseau*
 
 </details>
@@ -466,7 +466,7 @@ pct start 100                    # Démarrer conteneur
 |------|-------------------------|---------|
 | 01 | Résolution Netplan OK | ![01](procedures/captures/01-resolution-netplan-ping-ok.png) |
 | 02 | Diagnostic disque (fakefile) | ![02](procedures/captures/02-diagnostic-disque-fakefile.png) |
-| 03 | Panne réseau (eth0 DOWN) | ![03](procedures/captures/04-panne-reseau-eth0-down.png) |
+| 03 | Panne réseau (eth0 DOWN) | ![03](procedures/captures/03-panne-reseau-eth0-down.png) |
 | 04 | Panne DNS (systemd-resolved inactif) | ![04](procedures/captures/04-panne-dns-resolved-inactive.png) |
 | 05 | Diagnostic interface DOWN | ![05](procedures/captures/05-diagnostic-interface-down.png) |
 | 06 | Panne PATH vide | ![06](procedures/captures/06-panne-path-vide.png) |
@@ -577,7 +577,7 @@ documente tout pour partager et m'améliorer.
 *⭐ N'hésitez pas à star ce repo si vous le trouvez utile !*
 'EOF'{name}](procedures/captures/01-resolution-netplan-ping-ok.png)
 'EOF'{name}](procedures/captures/02-diagnostic-disque-fakefile.png)
-'EOF'{name}](procedures/captures/04-panne-reseau-eth0-down.png)
+'EOF'{name}](procedures/captures/03-panne-reseau-eth0-down.png)
 'EOF'{name}](procedures/captures/04-panne-dns-resolved-inactive.png)
 'EOF'{name}](procedures/captures/05-diagnostic-interface-down.png)
 'EOF'{name}](procedures/captures/06-panne-path-vide.png)
